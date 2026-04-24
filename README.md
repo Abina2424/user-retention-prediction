@@ -47,4 +47,4 @@ To ensure reliability, **Stratified K-Fold Cross-Validation** was used to evalua
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/user-retention-prediction.git](https://github.com/your-username/user-retention-prediction.git)
+   git clone [https://github.com/Abina2424/user-retention-prediction.git](https://github.com/your-username/user-retention-prediction.git)
