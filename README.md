@@ -35,7 +35,7 @@ To ensure reliability, **Stratified K-Fold Cross-Validation** was used to evalua
 | Model | ROC-AUC Score | Key Strength |
 | :--- | :--- | :--- |
 | **Logistic Regression** | 0.95 | Baseline interpretability |
-| **Random Forest** | 0.95 | Robustness to non-linear data |
+| **Random Forest** | 0.94 | Robustness to non-linear data |
 | **Gradient Boosting** | **0.96** | **Highest predictive accuracy** |
 
 > **Result:** The system achieved a near-excellent **ROC-AUC of 0.96**, indicating a high capability to distinguish between retained and churned users.
@@ -43,6 +43,9 @@ To ensure reliability, **Stratified K-Fold Cross-Validation** was used to evalua
 ## 💡 Key Insights
 1. **Social Proof > Sentiment:** Analysis of **Feature Importance** revealed that **'Rating Count'** is a significantly stronger predictor of retention than the **'Rating'** score itself. 
 2. **Engagement Thresholds:** Apps with high interaction volume show exponentially higher retention rates, suggesting that getting users to perform "recurring actions" (like rating) is the primary driver of loyalty.
+   
+## Conclusion
+By moving from a reactive to a proactive retention strategy, this system allows stakeholders to maximize Customer Lifetime Value (CLV). The insights gained—specifically the importance of interaction volume over sentiment—provide a clear roadmap for product engagement strategies.
 
 ## 🚀 How to Run
 1. Clone the repository:
